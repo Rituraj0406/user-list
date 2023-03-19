@@ -1,0 +1,32 @@
+.card-form-container{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 20px;
+}
+.form-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__inner__first, .form__inner__second{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    border: none;
+    background-color: darkcyan;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkolivegreen;
+    transform: scale(1.1);
+}
+.submit-section{
+    display: flex;
+    justify-content: flex-end;
+}

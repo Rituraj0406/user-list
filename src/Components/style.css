@@ -1,0 +1,10 @@
+.main-container{
+    height: 100vh;
+    background-color: beige;
+    padding: 27px;
+}
+
+.components-wrapper{
+    width: 90%;
+    margin: auto;
+}
